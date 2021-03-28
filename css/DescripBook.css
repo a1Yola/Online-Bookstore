@@ -1,0 +1,89 @@
+body {
+    background: #DEB887;
+    }
+
+    .container1 {
+    padding-top: 35px;
+    padding-left: 95px;
+    padding-right: 95px;
+    }
+
+    .borderBook {
+    display: flex;
+    width: auto;
+    height: auto;
+    }
+
+    .info_descrip {
+    padding-left: 45px;
+    }
+
+    .pricebook {
+    font-weight: lighter;
+    font-size: 18px;
+    }
+
+    .descnm {
+    font-size: 26px;
+    font-weight: bolder;
+    }
+
+    .authorbook {
+    font-size: 18px;
+    font-weight: bolder;
+    }
+
+    .descrat {
+    font-size: 18px;
+    font-weight: 400;
+    }
+
+    .images {
+    height: 490px;
+    width: 311px;
+    }
+
+    .link {
+    height: 42px;
+    text-decoration: none;
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    padding: 10px 35px;  
+	overflow:hidden;
+    }
+
+    .link:before {
+    font-family: FontAwesome;
+	content:"\f07a";
+	position: absolute;
+    color: #DEB887;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+    }
+
+    .link:hover:before {
+        left: 7px;
+        color: #f2f2f2;
+    }
+
+    .link2 {
+    text-decoration: none;
+    color: #FF0000;
+    }
+
+    .link2:hover {
+    color: #000;
+    }
+
+    .footer1__info {
+    text-align: center;
+    font-weight: normal;
+    }

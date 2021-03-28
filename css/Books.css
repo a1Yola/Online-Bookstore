@@ -1,0 +1,171 @@
+input {
+    border-radius: 20px/20px;
+    border:none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    }
+
+.select__op {
+    margin-right: 8px;
+    border-radius: 20px/20px;
+    border:none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: inherit;
+    }
+
+.select__op:hover {
+    cursor: pointer;
+}
+
+.images {
+    height: 170px;
+    width: 112px;
+    transition: .3s;
+    }
+
+.images:hover {
+    transform: scale(1.06);
+    opacity: .80;
+    }
+
+.intro_2 {
+    background-image: url(/images/Backgrounds/fon1.jpg);
+    flex: 1 0 auto;
+    width: 100%;
+    height: auto;
+    padding-top: 85px;
+    padding-bottom: 21px;
+    }
+
+.respoi {
+    margin-top: 80px;
+    padding-left: 180px;
+    }
+
+.respoi__items {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.searchcss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.search_string  {
+    width: 400px;
+}
+
+.button_search {
+    border-radius: 20px/20px;
+    border:none;
+    background: #DEB887;
+    font-size: 16px;
+    margin-left: 8px;
+    padding-right: 15px;
+    }
+
+.button_search:hover {
+    opacity: .80 ;
+    font-weight: bold;
+    transform: scale(1.1);
+    cursor: pointer;
+    }
+
+.searchat {
+    margin-top: 5px;
+    max-width: 135px;
+    margin-bottom: 5px;
+    flex: 1 0 auto;
+    }
+
+.searchnm {
+    font-family: fantasy;
+    font-size: 18px;
+    max-width: 110px;
+    }
+
+.searchcateg {
+    font-weight: bold;
+    max-width: 135px;
+    }
+
+.catsearch {
+    font-weight: normal;
+    }
+
+.searchBook {
+    width: 182px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.searchpr {
+    font-family: sans-serif;
+    font-weight: bolder;
+    flex: 0 0 auto;
+    }
+
+.searchpr1 {
+    font-size: 12px;
+    padding-top: 5px;
+    max-width: 125px;
+    }
+
+.descripBook__link {
+    max-width: max-content;
+}
+
+.link {
+    font-family: 'Raleway', sans-serif;
+    height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    background: #3a7999;
+    color: #fff;
+    border: none;
+    border-radius: 2.5px;
+    padding: 2.5px;
+    position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+    }
+
+.link:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 24px;
+    background: rgba(255,255,255,0.3);;
+    transition: all .82s ease;
+}
+
+.link:hover:before {
+	width: 100%;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #FF0000;
+    }
+
+.link2:hover {
+    color: #000;
+    }
+
+.texterror {
+    margin-left: auto;
+    margin-right: 47%;
+}
