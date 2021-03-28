@@ -1,0 +1,56 @@
+body {
+    background: #DEB887;
+    }
+
+.container1 {
+    margin-top: 10px;
+    }
+
+.form1 {
+    margin: 0 auto;
+    background: #FFFFF0;
+    width: 280px;
+    padding: 20px;
+    padding-top:5px;
+    border-radius: 20px/20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.82);
+    height: auto;
+    }
+
+.round, .round1, .round_button {
+    border-radius: 20px/20px;
+    border:none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    }
+
+.round, .round1 {
+    margin-bottom: 20px;
+}
+
+.round_button:hover {
+    cursor: pointer;
+    opacity: .65 ;
+    font-weight: bold;
+    transform: scale(1.1);
+    }
+    
+.round1 {
+    padding-bottom: 15px;
+    }
+
+.error_container_new {
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    max-width: 21%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: #cc0707;
+    text-align: center;
+}
+
+.error_mess {
+    font-size: 16px;
+    color: #fff;
+}

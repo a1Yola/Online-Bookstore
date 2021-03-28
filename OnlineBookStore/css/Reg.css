@@ -1,0 +1,86 @@
+body {
+    background: #DEB887;
+}
+
+form {
+    margin: 0 auto;
+    background: #FFFFF0;
+    width: 280px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 20px/20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+form input {
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+#butt {
+    border-radius: 15px/15px;
+    border: 1.8px solid #DEB887;
+    background: #DEB887;
+    font-size: 16px;
+	padding: 5px;
+	margin-top: 25px;
+    margin-bottom: 5px;
+    width: 85%;
+    position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+    height: 30px;
+}
+
+#butt:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+#butt:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 30px;
+    background: rgba(255,255,255,0.3);;
+    transition: all .82s ease;
+}
+
+#butt:hover:before {
+	width: 100%;
+}
+
+.regButton {
+    text-align: center;
+}
+
+.regLabel {
+    font-size:22px; 
+    font-weight:600;
+    padding-left: 22%;
+}
+
+.container_reg {
+    margin-top: 30px;
+}
+
+.error_container_new {
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    max-width: 25%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: #cc0707;
+    text-align: center;
+}
+
+.error_mess {
+    font-size: 16px;
+    color: #fff;
+}
